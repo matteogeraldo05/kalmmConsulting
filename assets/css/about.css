@@ -1,3 +1,7 @@
+.image-container img {
+    object-position: bottom 1vh; 
+}
+
 .about-text-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,7 +43,7 @@
     cursor: pointer;
     border-radius: 0.5rem;
     color: #fff;
-    background: #0051ad;
+    background: var(--blue);
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -53,5 +57,5 @@
 
 #about-button:hover{
     color: #ffffff;
-    background: orange;
+    background: var(--navy);
 }

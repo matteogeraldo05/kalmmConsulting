@@ -14,7 +14,7 @@
 }
 
 .contact-info {
-    background-color: #427ec3;
+    background-color: var(--blue);
     color: white;
 }
 
@@ -24,11 +24,15 @@
 
 .contact-info h4 {
     margin-top: 0;
-    color: orange;
+    color: var(--navy);
 }
 
 .contact-info p {
     margin-top: 5vh;
+}
+
+.contact-info a {
+    color: white;
 }
 
 .contact-form input,
@@ -43,7 +47,7 @@
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: #003366;
+    background-color: var(--blue);
     color: white;
     border: none;
     border-radius: 4px;
@@ -51,5 +55,5 @@
 }
 
 .contact-form button:hover {
-    background-color: #005599;
+    background-color: var(--navy);
 }
