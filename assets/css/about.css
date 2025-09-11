@@ -1,0 +1,57 @@
+.about-text-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding-bottom: 3rem;
+}
+.project-title {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+#about-us {
+    font-size: 3rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+#about-button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: #0051ad;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+    
+
+#about-button:hover{
+    color: #ffffff;
+    background: orange;
+}
