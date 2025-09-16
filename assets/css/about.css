@@ -19,6 +19,15 @@
     cursor: pointer;
     padding-bottom: 3rem;
 }
+
+.text-section img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 1rem;
+    flex-shrink: 0;
+}
+
 .project-title {
     background-color: #1a1a1a;
     padding: 1rem;
@@ -37,6 +46,16 @@
     padding-top: 3rem;
 }
 
+#about-us-2 {
+    font-size: 3rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    padding-top: 3rem;
+    text-align: right;
+}
+
 #about-button {
     display: inline-block;
     outline: 0;
@@ -49,13 +68,15 @@
     line-height: 28px;
     padding: 12px 20px;
     text-align:center;
-    transition-duration: .15s;
+    transition-duration: .35s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 0.5rem 6px rgba(0, 0, 0, 0.156);
 }
     
 
 #about-button:hover{
     color: #ffffff;
     background: var(--navy);
+    box-shadow: 0 0rem 0px rgba(0, 0, 0, 0);
 }
